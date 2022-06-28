@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+}
+​
+a {
+    text-decoration: none; 
+    color: rgb(32, 219, 35);
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: large;
+}
+​
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.playtime {
+    padding-right: 10px;
+    min-height: 50px;
+}
+.playtime ul{
+    list-style: none;
+}
+.playtime li {
+    display: inline;
+    float: right;
+    padding: 5px;
+}
+.playtime a {
+    text-decoration: none; 
+    color: darkblue;
+​
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    color:slateblue;
+    text-decoration:solid;
+    padding: 5px;
+}
+​
+.navbar {
+    display: block;
+    text-align: center;
+    background-color: lightcyan;
+    padding: 20px;
+}
+.navbar ul {
+    list-style: none;
+}
+.navbar li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+   }
+.navbar a {
+    text-decoration: none; 
+    color: darkblue;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.showcase {
+    background:magenta ;
+    display: flex;
+}
+.headline {
+    display: flex;
+    float: right;
+    flex-grow: 2;
+    color: yellow;
+    align-items: center;
+    padding: 50px;
+ }
+ .headline h1 {
+     font-size: 40px;
+     font-family: sans-serif;
+ }
+.tricks ul {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    list-style: none;
+    padding-right: 50px;
+    
+}
+.tricks li {
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.leftsidebar {
+    padding: 20px 20px 0 0;
+    display: block;
+    width:30%;
+}
+.content1 {
+   padding:20px 30px 0 30px;
+   display: block;
+   width: 50%;
+}
+.myform {
+    padding: 40px;
+    display: block;
+    width: 20%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa :hover {
+opacity: 0.7;
+}
+
+.leftColumn {
+    background-color: rgb(68, 68, 173);
+    color: white;
+    overflow: hidden;
+    margin: 28px 0 0 0;
+    display: inline block;
+    text-align: center;
+    text-decoration: none;
+}
+
+#subscribe input[type=submit] {
+    border: 0;
+    width: 80px;
+    height: 30px;
+    font-size: 14px;
+    background-color:rgb(68, 68, 173);
+    color: white;
+    border-radius: 30px;
+    -webkit-transition: all 500ms ease-out;
+    -ms-transition: all 500ms ease-out;
+    transition: all 500ms ease-out;
+    cursor: pointer;
+}
+
+#subscribe input[type=submit]:hover {
+    background-color: blueviolet;
+    -webkit-transition: all 250ms ease-out;
+    -ms-transition: all 250ms ease-out;
+    transition: all 250ms ease-out;
+}
